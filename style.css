@@ -1,22 +1,22 @@
       @font-face {
       font-family: "Bliss";
-      src: url("./fonts/Bliss2-Bold.woff") format("woff");
+      src: url("./static/fonts/Bliss2-Bold.woff") format("woff");
       font-display: swap;
   }
   @font-face {
     font-family: "Bliss-Heavy";
-    src: url("./fonts/Bliss-Heavy.otf") format("opentype");
+    src: url("./static/fonts/Bliss-Heavy.otf") format("opentype");
     font-display: swap;
 }
   @font-face {
     font-family: "Gilroy SemiBold";
-    src: url("./fonts/Gilroy-SemiBold.woff") format("woff");
+    src: url("./static/fonts/Gilroy-SemiBold.woff") format("woff");
     font-display: swap;
   }
 
   @font-face {
     font-family: "Gilroy";
-    src: url("./fonts/Gilroy-Regular.woff") format("woff");
+    src: url("./static/fonts/Gilroy-Regular.woff") format("woff");
     font-display: swap;
   }
 
@@ -148,7 +148,7 @@
 }
 #es-magne-b6.es-magne-b6 .es-kv__packshot:before {
   content: "";
-  background: url("./images/shine.webp");
+  background: url("./static/images/shine.png");
   background-size: cover;
   position: absolute;
   top: -60%;
@@ -261,7 +261,7 @@
 }
 
 #es-magne-b6.es-magne-b6 .es-benefits {
-    background-image: url(./images/background-4.webp);
+    background-image: url("./static/images/background-4.png");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -400,7 +400,7 @@
 }
 
 #es-magne-b6.es-magne-b6 .es-symptoms {
-    background: url(./images/background-3.webp);
+    background: url("./static/images/background-3.png");
     background-position: bottom left;
     background-repeat: no-repeat;
     position: relative;
@@ -478,7 +478,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 24px;
+    gap: 10px;
     background-color: #fff;
     border: 2px solid #001883;
     border-radius: 99px;
@@ -747,7 +747,7 @@
 
 #es-magne-b6.es-magne-b6 .es-choose {
     margin-bottom: 32px;
-    background: url(./images/background-4.webp);
+    background: url("./static/images/background-4.png");
     background-position: top center;
     background-repeat: no-repeat;
     margin-top: -96px;
@@ -800,7 +800,9 @@
     /* padding-bottom: 32px; */
     font-size: clamp(1rem, 0.6667rem + 1.6667vw, 1.5rem);
 }
-
+#es-magne-b6.es-magne-b6 .es-choose__step {
+    margin-bottom: 16px;
+}
 #es-magne-b6.es-magne-b6 .es-ingredients__img {
     max-width: 100%;
     display: block;
@@ -957,7 +959,7 @@
 }
   
 #es-magne-b6.es-magne-b6 .es-info__container {
-    background: url(./images/background-2.webp);
+    background: url("./static/images/background-2.png");
     background-position: center center;
     background-repeat: no-repeat;
     min-height: 363px;
@@ -1229,6 +1231,7 @@
     font-size: clamp(1rem, 0.9167rem + 0.4167vw, 1.125rem);
     text-align: left;
     margin-bottom: 32px;
+    word-wrap: break-word;
 }
 
 #es-magne-b6.es-magne-b6 .es-footer__version {
@@ -1253,7 +1256,11 @@
     font-size: clamp(1rem, 0.7083rem + 1.4583vw, 1.4375rem);
 }
 
-
+@media (max-width: 400px) {
+    #es-magne-b6.es-magne-b6 .es-footer__img {
+        max-width: 150px;
+    }
+}
 @media screen and (min-width: 375px){
     
     #es-magne-b6.es-magne-b6 .es-kv__background {
@@ -1359,6 +1366,7 @@
         border: 2px solid #001883;
         width: 312px;
         height: 92px;
+        gap: 16px;
     }
     #es-magne-b6.es-magne-b6 .es-symptoms__circle {
         margin-top: 0px;
@@ -1552,6 +1560,7 @@
     #es-magne-b6.es-magne-b6 .es-symptoms__single {
         width: 325px;
         height: 106px;
+        gap: 24px;
     }
     #es-magne-b6.es-magne-b6 .es-symptoms__text {
         max-width: 160px;
@@ -1588,7 +1597,7 @@
         padding-top: 222px;
     }
     #es-magne-b6.es-magne-b6 .es-ingredients__content {
-        background-image: url(./images/tablet.webp);
+        background-image: url("./static/images/tablet.png");
         background-position: top left;
         background-repeat: no-repeat;
     }
