@@ -1137,83 +1137,6 @@
     transition: all 0.3s ease-out;
 }
 
-#es-magne-b6.es-magne-b6 .es-deal__img {
-    max-width: 100%;
-    display: block;
-    margin-left: auto;
-}
-
-#es-magne-b6.es-magne-b6 .es-deal__img--middle {
-    margin-left: 0;
-}
-
-#es-magne-b6.es-magne-b6 .es-deal__container {
-    margin-bottom: 32px;
-}
-
-#es-magne-b6.es-magne-b6 .es-deal__title {
-    margin: 0;
-    padding: 0;
-    line-height: inherit;
-    color: #001883;
-    font-family: "Bliss-Heavy", sans-serif;
-    font-size: clamp(1.5rem, 0rem + 7.5vw, 3.75rem);
-    text-align: center;
-    margin-bottom: 32px;
-}
-
-#es-magne-b6.es-magne-b6 .es-deal__subtitle {
-    margin: 0;
-    padding: 0;
-    line-height: inherit;
-    color: #001883;
-    font-family: inherit;
-    font-weight: 600;
-    text-align: center;
-    margin-bottom: 24px;
-    /* font-size: clamp(1.25rem, 1.125rem + 0.625vw, 1.4375rem); */
-    font-size: clamp(1.25rem, 0.625rem + 3.125vw, 2.1875rem);
-}
-
-#es-magne-b6.es-magne-b6 .es-deal__desc {
-    margin: 0;
-    padding: 0;
-    line-height: inherit;
-    color: #001883;
-    font-family: inherit;
-    font-weight: 400;
-    text-align: left;
-    margin-bottom: 32px;
-    padding-inline: 16px;
-    font-size: clamp(1.25rem, 1.125rem + 0.625vw, 1.4375rem);
-}
-
-#es-magne-b6.es-magne-b6 .es-deal__single {
-    margin-bottom: 32px;
-}
-
-#es-magne-b6.es-magne-b6 .es-deal__btn {
-    margin: 0;
-    padding: 12px 24px;
-    line-height: inherit;
-    color: inherit;
-    font-family: "Gilroy SemiBold";
-    font-weight: inherit;
-    border-radius: 50px;
-    background-color: #962d38;
-    text-align: center;
-    animation: es-pulse2 2s infinite;
-    text-decoration: none;
-    white-space: nowrap;
-    font-size: clamp(1.25rem, 1.125rem + 0.625vw, 1.4375rem);
-}
-
-#es-magne-b6.es-magne-b6 .es-deal__content {
-    display: flex;
-    align-items: center;
-    flex-flow: column;
-}
-
 #es-magne-b6.es-magne-b6 .es-footer__content {
     display: flex;
     justify-content: space-between;
@@ -1644,21 +1567,6 @@
         display: none;
     }
 
-    #es-magne-b6.es-magne-b6 .es-deal__desc {
-        margin-bottom: 64px;
-    }
-    #es-magne-b6.es-magne-b6 .es-deal__single {
-        justify-content: space-between;
-    }
-    #es-magne-b6.es-magne-b6 .es-deal__content--2 {
-        margin-left: 48px;
-    }
-    #es-magne-b6.es-magne-b6 .es-footer__version {
-        font-size: 16px;
-    }
-    #es-magne-b6.es-magne-b6 .es-deal__image {
-        width: unset;
-    }
     #es-magne-b6.es-magne-b6 .es-cross__title {
         padding-top: 190px;
     }
