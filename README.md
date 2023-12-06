@@ -1,12 +1,12 @@
-# 230322 SF 23 Magne Forte 100 CENEO NEW PACKSHOTS
+# 230322 SF 23 Magne Forte 60 CENEO NEW PACKSHOTS
 
 ## LIVE SITE LINK
 <!-- please enter link to site preview here -->
-[Project live site](https://magne-forte-100-new-ceneo.netlify.app/)
+[Project live site](https://magne-forte-60-new-ceneo.netlify.app/)
 
 ## PROJECT PREVIEW
 
-![image](https://github.com/eStoreLabs/230322-SF-23-Magne-Forte-100-NEW-GENERIC/assets/130984276/f4875f39-69a7-43a0-a48c-0d8fb1a2d13c)
+
 
 ### LINKS TO DESIGNS (in .xd or .psd)
 
